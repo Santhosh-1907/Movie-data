@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: rgb(30, 11, 48);
+}
+
+.logo-size{
+  height: 50px;
+ 
+}
+
+.font-size-12{
+  font-size: 12px;
+}
+
+.heading{
+  font-size: 45px;
+  color: #c7adf5;
+}
+.input-fluid {
+  outline: none;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: #8E50fd;
+  color: #fff;
+}
+
+.input-fluid::placeholder{
+  color: #fff;
+}
+
+.search-button{
+  border-radius: 3px;
+  font-size: 20px;
+  color: white;
+  background-color: #eb0002;
+}
+.heading-color{
+  color: #c7adf5
+}
+
+.movie-card{
+  height: 230px;
+  width: auto;
+}
+
+.card-bg{
+  background-color: #4d337a;
+}
+
+.text-overflow{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   line-clamp: 1;
+}
+
+.Image-Poster{
+  height: 450px;
+}
+
+.text-grey{
+  color: rgb(149, 146, 146);
+  font-weight: 500;
+}
+
+.text-yellow{
+  color: yellow;
+}
